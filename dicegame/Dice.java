@@ -31,6 +31,11 @@ public class Dice
         return (int)Math.round((Math.random() * (max - min)) + min);
     }
 
+    public int getAmountOfEyes() 
+    {
+        return eyes;
+    }
+
     // Overwrite toString method,
     // to output dice throw, when object 
     // is printed
